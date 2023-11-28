@@ -1,0 +1,10 @@
+position: absolute;: This property is applied to the .boxtext class. It positions the element relative to its nearest positioned ancestor (in this case, the .one container).
+
+top: 50%;: This sets the top edge of the .boxtext element to be 50% down from the top edge of its containing element, which is .one in this case.
+
+left: 50%;: This sets the left edge of the .boxtext element to be 50% from the left edge of its containing element.
+
+transform: translate(-50%, -50%);: This is used to center the element both horizontally and vertically within its containing element. 
+The translate function moves the element by a percentage of its own width and height. In this case, it moves the element 50% of its own width to the left and 50% of its own height up, effectively centering it.
+
+&nbsp adds space in html ***
